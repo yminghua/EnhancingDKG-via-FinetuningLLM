@@ -8,7 +8,7 @@ of large language models (LLM), we use the QLoRA method to finetune the Llama2-7
 Evaluation results of finetuned Llama2 models:
 ![Evaluation Results](./figures/evaluation_results.jpg)
 
-Generated relation descriptions for the concept pair "Hydrogen" and "Solar System", with f-llama2-280k exhibiting optimal performance:
+Generated relation descriptions for the concept pair "Hydrogen" and "Solar System", with f-llama2-280k exhibiting optimal performance.
 ![Example Case](./figures/example_case.jpg)
 
 ## Requirements
@@ -55,3 +55,6 @@ The original data constructed by [DEER](https://github.com/jeffhj/DEER/tree/main
     ```
     python RDScore.py f-llama2_output.json baseline
     ```
+
+
+[--- Link for demo ---](https://drive.google.com/file/d/1hG1wGonzqF5v1SNtLKqG82ogn0TMBrZ1/view?usp=sharing)
